@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+body{
+	color:#800000;
+}
+
+fieldset {
+	margin-right: 30px; 
+	border : 3px solid silver;
+	padding: 40px;
+	border-radius: 4px;
+	
+}
+
+.heading {
+	margin-left: 100px;
+}
+
+.desc-view {
+	word-break: break-all;
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 500px;
+	width: 900px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#input{
+	border:3px solid silver;
+}
+ 
+#btnSave{
+	background-color:#800000;
+	border:gray;
+}
